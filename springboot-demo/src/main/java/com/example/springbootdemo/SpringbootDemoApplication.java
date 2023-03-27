@@ -21,23 +21,23 @@ public class SpringbootDemoApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		Employee employee= new Employee();
-		employee.setFirstName("Jahn vi");
+		employee.setFirstName("Priya");
 		employee.setLastName("Sharma");
-		employee.setEmail("jahnvi123@gmail.com");
+		employee.setEmail("priya123@gmail.com");
 		employeeRepository.save(employee);
 
 
 		Employee employee1= new Employee();
-		employee1.setFirstName("Sonal");
-		employee1.setLastName("Sharma");
-		employee1.setEmail("sonal123@gmail.com");
+		employee1.setFirstName("Rakesh");
+		employee1.setLastName("Gupta");
+		employee1.setEmail("rakesh123@gmail.com");
 		employeeRepository.save(employee1);
 
 
 		Employee employee2= new Employee();
-		employee2.setFirstName("Tush ar");
-		employee2.setLastName("Sharma");
-		employee2.setEmail("tushar123@gmail.com");
+		employee2.setFirstName("Anchal");
+		employee2.setLastName("jain");
+		employee2.setEmail("anchal123@gmail.com");
 		employeeRepository.save(employee2);
 	}
 
